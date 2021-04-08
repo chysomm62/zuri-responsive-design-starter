@@ -358,54 +358,37 @@ div.footer h6 {
   }
   div.nav-bar {
     width: 100%;
-    display: block;
-    padding: 2rem;
-    justify-content: center;
-    align-items: center;
   }
   div.nav-bar .logo {
     padding: 0.2rem auto;
   }
   ul.nav-links {
-    justify-content: space-between;
-    margin-top: 1rem;
+    flex-direction: column;
   }
   div.hero-section {
     width: 100%;
-    padding: 2rem;
+    padding: 2rem 4rem;
   }
   div.hero-background {
     display: block;
-    padding: 2rem;
     max-width: 100%;
+    padding: 1rem 2em;
   }
   div.background {
     max-width: 100%;
     height: auto;
-    padding: 1rem;
     box-sizing: border-box;
     position: relative;
     width: 100%;
   }
-  div.background p,
-  div.background h4 {
-    box-sizing: border-box;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 2.8rem;
-  }
   div.hero-background-pos {
-    position: absolute;
-    right: 0px;
-    left: 80%;
-    margin-top: -160px;
+    display: none;
   }
   div.snapshot-team {
     padding: 2.5rem 2.5rem 0;
   }
   div.snapshot-box {
     display: block;
-    padding: 1.5rem 2rem;
   }
   div.snapshot-box-content {
     display: block;
@@ -413,23 +396,12 @@ div.footer h6 {
   }
   div.snapshot-box-content > * {
     margin: 1.5rem auto;
-    width: 70%;
-  }
-  div.gallery-content p {
-    padding: 0.2rem 2.5rem;
-  }
-  div.gallery-section {
-    padding: 0.5rem;
-    padding-top: 2.5rem;
   }
   div.gallery-img {
     margin: 0 auto;
   }
   div.img {
     margin: 0 1rem 1rem 0;
-  }
-  div.img img {
-    width: 210px;
   }
   div.footer {
     padding: 2.5rem 6rem 0.5rem;
@@ -467,36 +439,25 @@ div.footer h6 {
   }
   div.nav-bar {
     width: 100%;
-    display: block;
-    padding: 1rem;
+    padding: 1rem 2rem;
+  }
+  ul.nav-links {
+    flex-direction: column;
   }
   div.hero-section {
     width: 100%;
-    padding: 1rem;
+    padding: 2rem 3rem;
   }
   div.hero-background {
     display: block;
-    padding: 1rem;
-    max-width: 100%;
+    padding: 0.2rem 2em;
   }
   div.background {
+    margin-top: 1.5rem;
     max-width: 100%;
     height: auto;
-    padding: 1rem;
-    padding-bottom: 4rem;
+    padding: 1rem 2em;
     box-sizing: border-box;
-  }
-  div.background p,
-  div.background h4 {
-    box-sizing: border-box;
-    padding-left: 0;
-    padding-bottom: 0.5em;
-  }
-  div.hero-background-pos {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: -4rem;
   }
   div.snapshot-box {
     display: block;
