@@ -363,7 +363,7 @@ div.footer h6 {
     justify-content: center;
     align-items: center;
   }
-  div.nav-bar.logo {
+  div.nav-bar .logo {
     padding: 0.2rem auto;
   }
   ul.nav-links {
